@@ -1,0 +1,92 @@
+‎<!DOCTYPE html>
+‎<html lang="pt-BR">
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <title>Barbearia Al Capone | O Melhor Corte do Centro de Curitiba</title>
+‎    <meta name="description" content="Procurando barbearia no centro de Curitiba? A Barbearia Al Capone oferece cortes clássicos, barba e cuidados masculinos. Agende seu horário agora!">
+‎    
+‎    <!-- Fontes do Google -->
+‎    <link rel="preconnect" href="https://fonts.googleapis.com">
+‎    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+‎    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+‎
+‎    <style>
+‎        /* VARIÁVEIS DE CORES E ESTILOS */
+‎        :root {
+‎            --bg-color: #121212;
+‎            --bg-card: #1e1e1e;
+‎            --primary: #D4AF37; /* Dourado */
+‎            --primary-hover: #b5952f;
+‎            --accent: #8b0000; /* Vinho escuro */
+‎            --text-light: #f4f4f4;
+‎            --text-muted: #a0a0a0;
+‎            --font-title: 'Playfair Display', serif;
+‎            --font-body: 'Montserrat', sans-serif;
+‎        }
+‎
+‎        /* RESET BÁSICO */
+‎        * {
+‎            margin: 0;
+‎            padding: 0;
+‎            box-sizing: border-box;
+‎        }
+‎
+‎        body {
+‎            background-color: var(--bg-color);
+‎            color: var(--text-light);
+‎            font-family: var(--font-body);
+‎            line-height: 1.6;
+‎            overflow-x: hidden;
+‎        }
+‎
+‎        a { text-decoration: none; color: inherit; }
+‎        ul { list-style: none; }
+‎
+‎        /* CABEÇALHO E NAVEGAÇÃO */
+‎        header {
+‎            position: fixed;
+‎            top: 0;
+‎            width: 100%;
+‎            background-color: rgba(18, 18, 18, 0.95);
+‎            padding: 15px 5%;
+‎            display: flex;
+‎            justify-content: space-between;
+‎            align-items: center;
+‎            z-index: 1000;
+‎            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+‎        }
+‎
+‎        .logo {
+‎            font-family: var(--font-title);
+‎            font-size: 1.8rem;
+‎            color: var(--primary);
+‎            font-weight: bold;
+‎        }
+‎
+‎        .btn-agendar {
+‎            background-color: var(--primary);
+‎            color: var(--bg-color);
+‎            padding: 10px 20px;
+‎            border-radius: 5px;
+‎            font-weight: 700;
+‎            transition: 0.3s;
+‎            text-transform: uppercase;
+‎            font-size: 0.9rem;
+‎        }
+‎
+‎        .btn-agendar:hover {
+‎            background-color: var(--primary-hover);
+‎            transform: scale(1.05);
+‎        }
+‎
+‎        /* SEÇÃO PRINCIPAL (HERO) */
+‎        .hero {
+‎            height: 100vh;
+‎            display: flex;
+‎            flex-direction: column;
+‎            justify-content: center;
+‎            align-items: center;
+‎            text-align: center;
+‎            padding: 0 20px;
+‎            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1920&auto=forma
